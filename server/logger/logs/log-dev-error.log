@@ -1,0 +1,16 @@
+2023-04-05 07-52-01 [31merror[39m Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-04-05 07-55-43 [31merror[39m Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-04-05 07-59-18 [31merror[39m Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-04-05 08-00-58 [31merror[39m Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-04-05 08-03-08 [31merror[39m Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-04-05 08-13-40 [31merror[39m Error: User is not authorized ... 
+    at ApiError.UnauthorizedError (D:\Temp\Development\UserEvents-main\server\helpers\apiErrors.js:14:16)
+    at getUsers (D:\Temp\Development\UserEvents-main\server\controllers\UsersAuthController.js:54:32)
+    at Layer.handle [as handle_request] (D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (D:\Temp\Development\UserEvents-main\server\node_modules\express\lib\middleware\init.js:40:5)
